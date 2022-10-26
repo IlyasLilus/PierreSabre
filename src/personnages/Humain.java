@@ -47,11 +47,16 @@ public class Humain {
 			argent -= prix;
 		}
     }
-
-
-
-
-
+	
+	public int perdreArgent(int perte) {
+		if(argent-perte >= 0) {
+			argent -= perte;
+		}else {
+			argent =0;
+		}
+		
+		return argent;
+	}
 
 
 }
