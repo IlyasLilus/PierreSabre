@@ -17,6 +17,6 @@ public class Commercant extends Humain {
 	
 	public void recevoir(int don) {
 		System.out.println((getNom())+": " + don +" sous ! Je te remercie généreux donateur !");
+		this.gagnerArgent(don);
 	}
-	
 }
